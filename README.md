@@ -124,7 +124,7 @@ imagens_geradas = ImageDataGenerator(rotation_range = 20, fill_mode = 'reflect')
 
 <br>
 
-###### 6. Width:
+###### 7. Width:
 Width range is a data augmentation technique that randomly resizes images within a specified range of widths, in this case it will vary between `0 and 20 %`, as shown below:
 ```python
 imagens_geradas = ImageDataGenerator(width_shift_range = 0.2, fill_mode = 'reflect');
