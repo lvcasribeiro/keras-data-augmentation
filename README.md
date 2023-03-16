@@ -8,14 +8,14 @@ This code aims to demonstrate the most recurrent methods when using data augment
 
 ###### 1. Usage operation flow:
 
-1. On Google Colab create a folder named `dataset` and add your images in it;
-2. Create a folder named `augmented` to receive the augmented files;
+1. Install important packages with `!pip install tensorflow` and `!pip install opencv-python`:
+2. Upload the desired images at the `dataset` folder, after created;
 3. Run the notebook cells in order.
 
 <br>
 
 ###### 2. ImageDataGenerator class:
-After you have created and configured your ImageDataGenerator, you must fit it on your data.
+Create and configure your ImageDataGenerator to fit it on your data.
 ```python
 # Construindo uma instância da classe ImageDataGenerator:
 imagens_geradas = ImageDataGenerator(
@@ -59,7 +59,7 @@ imagens_geradas = ImageDataGenerator(vertical_flip = True);
 ```
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225425331-2e3d317e-1bfa-4971-82f9-76d7084f4855.png">
+    <img src="https://user-images.githubusercontent.com/96185134/225726839-5dca7c16-c7de-441a-9afe-41c3ad89f653.png">
 </p>
 
 <br>
@@ -71,7 +71,7 @@ imagens_geradas = ImageDataGenerator(horizontal_flip = True);
 ```
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225425893-b333a12a-c80e-4cd9-9bc9-41262c617121.png">
+    <img src="https://user-images.githubusercontent.com/96185134/225727100-e21787c9-d9e1-48cb-ada8-3ca3f57c8f4b.png">
 </p>
 
 <br>
@@ -83,7 +83,7 @@ imagens_geradas = ImageDataGenerator(zoom_range = [0.7, 1.0]);
 ```
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225426293-bfb4bbd0-76c0-419d-b892-9b4eeef4f8a0.png">
+    <img src="https://user-images.githubusercontent.com/96185134/225727805-de2db3f3-3b30-4fb0-b022-c35547d91e65.png">
 </p>
 
 <br>
@@ -95,7 +95,7 @@ imagens_geradas = ImageDataGenerator(channel_shift_range = 50);
 ```
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225426708-8e7f746b-0293-423f-ba86-27afd516e86c.png">
+    <img src="https://user-images.githubusercontent.com/96185134/225728083-fce74218-f75a-4164-86f3-4c40eaa6ab41.png">
 </p>
 
 <br>
@@ -107,7 +107,7 @@ imagens_geradas = ImageDataGenerator(brightness_range = [1.2, 1.3]);
 ```
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225427132-2d740f1b-6cfb-4001-8389-fabf15dbe53e.png">
+    <img src="https://user-images.githubusercontent.com/96185134/225728645-813e25d4-f58b-4589-9b7a-1a98f9a372e9.png">
 </p>
 
 <br>
@@ -119,7 +119,7 @@ imagens_geradas = ImageDataGenerator(rotation_range = 20, fill_mode = 'reflect')
 ```
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225427445-6a05e78c-79b7-47f7-ba36-8cb3d6b5f340.png">
+    <img src="https://user-images.githubusercontent.com/96185134/225729043-72d8717c-53d5-4ce8-972c-b1c474b106bb.png">
 </p>
 
 <br>
@@ -131,8 +131,7 @@ imagens_geradas = ImageDataGenerator(width_shift_range = 0.2, fill_mode = 'refle
 ```
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225428499-2138ce25-4432-4717-974e-b714f25ce80c.png">
-
+    <img src="https://user-images.githubusercontent.com/96185134/225729291-da97c532-ec46-4b9e-aa16-d1218f6f505b.png">
 </p>
 
 <br>
@@ -144,7 +143,7 @@ imagens_geradas = ImageDataGenerator(height_shift_range = 0.2, fill_mode = 'refl
 ```
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225428476-eae00f21-2baf-47f7-aa83-ace07b2a6926.png">
+    <img src="https://user-images.githubusercontent.com/96185134/225729475-b9666d52-6a0d-49af-8326-c53aba8ee977.png">
 </p>
 
 <br>
