@@ -146,8 +146,6 @@ imagens_geradas = ImageDataGenerator(height_shift_range = 0.2, fill_mode = 'refl
     <img src="https://user-images.githubusercontent.com/96185134/225729475-b9666d52-6a0d-49af-8326-c53aba8ee977.png">
 </p>
 
-<br>
-
 ##
 
 ### Remider
